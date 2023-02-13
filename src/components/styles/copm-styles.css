@@ -1,0 +1,21 @@
+.categories__title {
+  font-size: 45px;
+  font-weight: 700;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-bottom: 1px solid #8d8d8d;
+}
+
+.categories__descr {
+  font-size: 25px;
+  font-weight: 400;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.categories__item {
+  width: 70%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.is--active {
+  transform: translateX(0);
+}/*# sourceMappingURL=copm-styles.css.map */
