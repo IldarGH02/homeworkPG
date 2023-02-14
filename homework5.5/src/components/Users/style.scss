@@ -1,0 +1,16 @@
+.accordion__item {
+    cursor: pointer;
+    width: 250px;
+    border-radius: 10px;
+    outline: 1px solid #333;
+    text-align: center;
+    background-color: #f1f1f1;
+    
+    &:not(:last-child) {
+        margin-bottom: 25px;
+    }
+
+    .accordion__content {
+        border-top: 1px solid #333;
+    }
+}
